@@ -8,6 +8,6 @@ if not exist "%CSC%" (
   exit /b 1
 )
 cd /d "%~dp0"
-"%CSC%" -nologo -target:winexe -out:ClipTyper.exe -r:System.Windows.Forms.dll -r:System.Drawing.dll ClipTyper.cs
+"%CSC%" -nologo -target:winexe -out:ClipTyper.exe -r:System.Windows.Forms.dll -r:System.Drawing.dll src\*.cs
 if errorlevel 1 exit /b 1
 echo Built ClipTyper.exe
