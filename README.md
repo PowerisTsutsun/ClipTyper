@@ -4,6 +4,8 @@ A small Windows tray app that **types** your clipboard as real keystrokes instea
 
 Useful anywhere paste is blocked or broken: VM consoles, iLO/iDRAC/IPMI web consoles, some RDP or VDI sessions, and editors that disable paste.
 
+![ClipTyper typing copied code as keystrokes](assets/demo.gif)
+
 **[Download ClipTyper.exe](https://github.com/PowerisTsutsun/ClipTyper/releases/latest/download/ClipTyper.exe)** (Windows, no install needed)
 
 The exe isn't code-signed, so Windows SmartScreen may warn on first launch. Click **More info**, then **Run anyway**. You can also [build it yourself](#building).
