@@ -8,7 +8,12 @@ Useful anywhere paste is blocked or broken: VM consoles, iLO/iDRAC/IPMI web cons
 
 **[Download ClipTyper.exe](https://github.com/PowerisTsutsun/ClipTyper/releases/latest/download/ClipTyper.exe)** (Windows, no install needed)
 
-The exe isn't code-signed, so Windows SmartScreen may warn on first launch. Click **More info**, then **Run anyway**. You can also [build it yourself](#building).
+The exe isn't code-signed yet, so you may see two warnings:
+
+- **Edge** says "ClipTyper.exe isn't commonly downloaded." Click **⋯** next to the download, then **Keep**, then **Show more** → **Keep anyway**.
+- **Windows SmartScreen** warns on first launch. Click **More info**, then **Run anyway**.
+
+To confirm your download is the official build, run `Get-FileHash ClipTyper.exe` in PowerShell and compare the result with the SHA-256 in the [release notes](https://github.com/PowerisTsutsun/ClipTyper/releases/latest). You can also [build it yourself](#building).
 
 ## Usage
 
