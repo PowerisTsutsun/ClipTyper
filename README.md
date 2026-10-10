@@ -4,6 +4,10 @@ A small Windows tray app that **types** your clipboard as real keystrokes instea
 
 Useful anywhere paste is blocked or broken: VM consoles, iLO/iDRAC/IPMI web consoles, some RDP or VDI sessions, and editors that disable paste.
 
+**[Download ClipTyper.exe](https://github.com/PowerisTsutsun/ClipTyper/releases/latest/download/ClipTyper.exe)** (Windows, no install needed)
+
+The exe isn't code-signed, so Windows SmartScreen may warn on first launch. Click **More info**, then **Run anyway**. You can also [build it yourself](#building).
+
 ## Usage
 
 1. Run `ClipTyper.exe`. A keyboard icon appears in the system tray, and the Settings window opens on first launch.
@@ -68,3 +72,7 @@ This produces `ClipTyper.exe` in the repo folder.
 | `src/Planner.cs` | Turns clipboard text into keystrokes for each mode |
 | `src/Typer.cs` | Sends the keystrokes |
 | `src/Native.cs` | Win32 calls for hotkeys and keyboard input |
+
+## License
+
+[MIT](LICENSE)
